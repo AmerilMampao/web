@@ -256,7 +256,7 @@ body {
     color: #0ef;
 }
 
-/* Update the class from 'services-list' to 'skills-list' */
+/*  'skills-list' */
 .skills-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
@@ -264,7 +264,7 @@ body {
     margin-top: 50px;
 }
 
-/* Update the class from 'services-list div' to 'skills-list div' */
+/* 'skills-list div' */
 .skills-list div {
     background-color: transparent;
     padding: 40px;
@@ -321,6 +321,8 @@ body {
     0 0 25px cyan, 0 0 50px cyan, 
     0 0 100px cyan, 0 0 200px cyan;
 }
+
+
 
 /* Project section styles */
 .projects {
@@ -641,6 +643,7 @@ form .message textarea {
     padding: 0 16px;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
+    color: white; /* Set text color to white */
     border-radius: 5px;
     border: 1px solid transparent;
     background: rgba(255, 255, 255, 0.1);
@@ -655,6 +658,7 @@ form .message textarea {
 .form-group .field input:focus,
 .form-group .message textarea:focus {
     background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
 }
 
 .button-area {
@@ -715,6 +719,7 @@ form .message textarea {
 .footer .box {
     flex: 1;
     margin-right: 20px;
+    padding-right: 20px;
 }
 
 .footer .box h3 {
@@ -728,6 +733,7 @@ form .message textarea {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
+
 }
 
 .footer .box a {
@@ -765,7 +771,7 @@ form .message textarea {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #ff00bf;
+    background-color: #e28dcd;
     color: white;
     border: none;
     border-radius: 5px;

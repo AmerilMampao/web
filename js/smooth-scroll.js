@@ -30,6 +30,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // Smooth scroll for "More About Me" button
+    const moreAboutMeBtn = document.querySelector('.btn-box');
+    if (moreAboutMeBtn) {
+        moreAboutMeBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = this.getAttribute('href');
+            scrollToTarget(target);
+        });
+    }
+
     // Show/hide scroll-to-top button based on scroll position
     window.onscroll = function() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
